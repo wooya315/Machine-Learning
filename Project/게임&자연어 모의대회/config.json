@@ -1,0 +1,20 @@
+{
+    "data_dir": "/USER/data/",
+    "result_dir": "/USER/result/",
+    "config_dir": "/USER/exp_config/",
+    "pretrained_model": "beomi/KcELECTRA-base",  
+    "architecture": "ElectraForSequenceClassification",
+    "tokenizer_class": "ElectraTokenizer",
+    "num_classes": 6,
+    "max_seq_len": 256,
+    "train_epochs": 13,
+    "adam_epsilon": 5e-5,
+    "seed": 42,
+    "train_batch_size": 32,
+    "eval_batch_size": 32
+    ,
+    "learning_rate": 5e-5,
+    "warmup_proportion": 0.1,
+    "run": "demo1_adamW",
+    "patience": 10
+}
